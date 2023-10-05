@@ -1,0 +1,37 @@
+{
+	"trainer": {
+		"id_counter_trainer": 0,
+		"max_learner_in_team": 5,
+		"max_team_in_population": 5,
+		"generation": 0,
+		"team": {
+			"id_counter_team": 0,
+			"p_lrn_add": 1.0,
+			"p_lrn_del": 0.0,
+			"p_lrn_mut": 0.0,
+			"p_act_atom": 1.0,
+			"rampant_gen": 0,
+			"rampant_min": 0,
+			"rampant_max": 0,
+			"learner": {
+				"id_counter_learner": 0,
+				"p_prog_mut": 1.0,
+				"p_act_mut": 1.0,
+				"program": {
+					"id_counter_program": 0,
+					"max_program_length": 5,
+					"nb_operations": 5,
+					"input_size": 5,
+					"nb_destinations": 5,
+					"p_inst_del": 1.0,
+					"p_inst_mut": 1.0,
+					"p_inst_swap": 1.0,
+					"p_inst_add": 1.0
+				},
+				"action": {
+					"id_counter_action": 0
+				}
+			}
+		}
+	}
+}
